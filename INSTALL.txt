@@ -1,0 +1,3 @@
+VaultGlass mobile web app (PWA)
+
+Deploy this entire folder, keeping files together, to an HTTPS website. Open the HTTPS URL in Safari (iOS: Share > Add to Home Screen) or Chrome on Android (menu > Install app/Add to Home screen). Browser installation is not available from a local file:// URL. The home-screen app can then open in standalone mode. The service worker caches only public app shell files; no credential data is put in that cache. Your existing vault data remains browser/origin-specific, so export an encrypted backup before moving to a new address or device.
